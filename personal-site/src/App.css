@@ -3,3 +3,8 @@
 * {
     font-family: 'Quicksand', sans-serif !important;
 }
+
+body{
+    background-image: linear-gradient(to right bottom, #5912b5, #5619a8, #531e9b, #50228e, #4d2581);
+    height: 100vh;
+}
