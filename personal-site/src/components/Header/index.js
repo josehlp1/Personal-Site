@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import logo_white_trasparente from '../../images/logo_white_trasparente.png';
 
 import { Nav, Navbar, Container, NavDropdown, Button, FormControl, Form } from 'react-bootstrap'
