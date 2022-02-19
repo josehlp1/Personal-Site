@@ -7,6 +7,7 @@ import Description_home from '../../components/Description_home'
 import Footer from '../../components/Footer'
 
 import './style.css';
+import Git_projects from '../../components/Git_projects';
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
           <Header />
           <Presentation />
           <Description_home />
+          <Git_projects />
           <Footer />
         </>
     );
