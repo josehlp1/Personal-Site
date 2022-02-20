@@ -8,6 +8,8 @@ header nav{
     font-weight: 500 !important;
     color: #fff !important;
     transition: all 0.4s ease;
+    text-decoration: none;
+    padding: 10px
 }
 
 #navbarScroll a:hover{
