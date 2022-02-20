@@ -54,3 +54,14 @@
     text-decoration: none;
     color: #fff;
 }
+
+
+@media (max-width: 600px){
+    #git_projects h2{
+        margin-bottom: 0px;
+    }
+
+    #git_projects .git-card p:last-child{
+        font-size: 16px;
+    }
+}
