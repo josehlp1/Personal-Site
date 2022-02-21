@@ -7,11 +7,13 @@ import { Nav, Navbar, Container, NavDropdown, Button, FormControl, Form } from '
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+const atualDate = new Date()
 
 const Footer = () => {
+
     return (
         <footer className="container">
-            <p>© 2022 @PelletJose</p>
+            <p>© {atualDate.getFullYear()} | @PelletJose</p>
         </footer>
     );
 }

@@ -28,3 +28,7 @@ body{
     border-radius: 10px;
     border: 1px solid #ffffff;
 }
+*::selection {
+    background: #fff;
+    color: #5912b5;
+}

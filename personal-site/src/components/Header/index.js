@@ -26,6 +26,11 @@ function NavBar() {
                             Projetos
                         </a>
                         </ScrollTo> 
+                        <ScrollTo selector={`#contact`}>
+                        <a href="javascript:void(0)">
+                            Contato
+                        </a>
+                        </ScrollTo> 
                     </Nav>
                 </Navbar.Collapse>
             </Container>
