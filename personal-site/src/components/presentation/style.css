@@ -1,0 +1,61 @@
+#presentation{
+    padding-top: 100px;
+    color:#fff;
+}
+
+#presentation .profile_details{
+    display: flex;
+    align-items: center;
+}
+
+#presentation .profile_details p{
+    font-size: 18px;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+#presentation h2{
+    font-size: 25px;
+    margin: 0px;
+}
+
+#presentation .img_profile img{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #fff;
+}
+
+#presentation .progress_bars{
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#presentation .progress_bars h2, #presentation .progress_bars h3{
+    color: #6a1b9a
+}
+
+#presentation .progress_bars h2{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+#presentation .progress_bars h3{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 600px){
+    #presentation{
+        padding-top: 40px !important;
+        padding: 20px !important;
+    }
+
+    #presentation .progress_bars{
+        margin-top: 30px !important;
+    }
+    
+}
+
+
