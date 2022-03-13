@@ -1,6 +1,8 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ScrollToTop from "react-scroll-to-top";
+
 import Header from '../../components/Header'
 import Presentation from '../../components/Presentation'
 import Description_home from '../../components/Description_home'
@@ -19,6 +21,7 @@ const Home = () => {
           <Description_home />
           <Git_projects />
           <Contact />
+          <ScrollToTop smooth color="#6f00ff" />
           <Footer />
         </>
     );
