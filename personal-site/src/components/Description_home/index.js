@@ -11,7 +11,8 @@ const Description_home = () => {
                 <div className="container">
                     <h2>Sobre Mim</h2>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Me chamo José Henrique, tenho 20 anos e sou programador beck-end a pouco mais de dois anos. Estou aprendendo Python e React Js o qual usei para fazer este site =).<br/>
+                        Se quiser falar comigo use o formulário ou entre em minhas redes sociais abaixo que lhe responderei o quanto antes. Tchau tchau!
                     </p>
                 </div>
             </div>
