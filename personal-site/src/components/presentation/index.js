@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import profile_photo from '../../images/profile_photo.png';
 
@@ -7,7 +6,6 @@ import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import ProgressBar from "@ramonak/react-progress-bar";
-
   
   const Presentation = () => {
     return (
@@ -22,7 +20,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
                         </div>
                         <div className="col-sm-6">
                             <h2>José Henrique Lenz Pellet</h2>
-                            <p>Idade: 20 anos</p>
+                            <p>Idade: 21 anos</p>
                             <p>Web Developer</p>
                             <p>Timbó - SC</p>
                         </div>
@@ -47,11 +45,11 @@ import ProgressBar from "@ramonak/react-progress-bar";
                             <ProgressBar  bgcolor="#6a1b9a" variant="danger" completed={70} />
                         </div>
                         <div className="progress_2">
-                            <h3>Python</h3>
+                            <h3>React JS</h3>
                             <ProgressBar completed={40} />
                         </div>
                         <div className="progress_2">
-                            <h3>React JS</h3>
+                            <h3>Python</h3>
                             <ProgressBar completed={30} />
                         </div>
                     </div>
